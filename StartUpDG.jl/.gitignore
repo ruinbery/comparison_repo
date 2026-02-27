@@ -1,0 +1,10 @@
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+.DS_Store
+/dev/
+Manifest.toml
+docs/Manifest.toml
+docs/build
+
+.vscode/settings.json

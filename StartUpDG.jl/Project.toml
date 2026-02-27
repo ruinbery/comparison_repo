@@ -1,0 +1,50 @@
+name = "StartUpDG"
+uuid = "472ebc20-7c99-4d4b-9470-8fde4e9faa0f"
+authors = ["Jesse Chan", "Yimin Lin"]
+version = "1.3.3"
+
+[deps]
+CaratheodoryPruning = "ab320bfc-8242-4797-bfc4-9370c33880e7"
+ConstructionBase = "187b0558-2788-49d3-abe0-74a17ed4e7c9"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+Kronecker = "2c470bb0-bcc8-11e8-3dad-c9649493f05e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+NodesAndModes = "7aca2e03-f7e2-4192-9ec8-f4ca66d597fb"
+PathIntersections = "4c1a95c7-462a-4a7e-b284-959c63fbf1dc"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Setfield = "efcf1570-3423-57d1-acb7-fd33fddbac46"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Triangulate = "f7e6ffb2-c36d-4f8f-a77e-16e897189344"
+WriteVTK = "64499a7a-5c06-52f2-abe2-ccb03c286192"
+
+[weakdeps]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+SummationByPartsOperators = "9f78cca6-572e-554e-b819-917d2f1cf240"
+
+[extensions]
+StartUpDGSummationByPartsOperatorsExt = "SummationByPartsOperators"
+TriangulatePlotsExt = "Plots"
+
+[compat]
+CaratheodoryPruning = "0.1"
+ConstructionBase = "1.1"
+FillArrays = "1"
+HDF5 = "0.17"
+Kronecker = "0.5"
+NodesAndModes = "1"
+PathIntersections = "0.1, 0.2, 0.3"
+Plots = "1.10"
+RecipesBase = "1"
+RecursiveArrayTools = "3.4"
+Reexport = "1"
+Setfield = "1"
+StaticArrays = "1.5"
+SummationByPartsOperators = "0.5.29"
+Triangulate = "2.2, 3"
+WriteVTK = "1.18"
+julia = "1.7"
